@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/esha"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="17dp"
+        android:text="Tahajjud"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tahajjudcheck"
+        app:layout_constraintEnd_toStartOf="@+id/tahajjudcheck"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Esha"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="18dp"
+        android:text="Esha"
+        app:layout_constraintBaseline_toBaselineOf="@+id/eshacheck"
+        app:layout_constraintEnd_toStartOf="@+id/eshacheck"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/eshacheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/eshacheck2"
+        app:layout_constraintStart_toEndOf="@+id/Esha"
+        app:layout_constraintTop_toBottomOf="@+id/maghribcheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tahajjudcheck"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tahajjudcheck"
+        app:layout_constraintTop_toTopOf="@+id/tahajjudcheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/asarcheck2"
+        app:layout_constraintTop_toTopOf="@+id/Dhur" />
+
+    <CheckBox
+        android:id="@+id/fajarcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/fajarcheck2"
+        app:layout_constraintStart_toEndOf="@+id/Fajar"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <CheckBox
+        android:id="@+id/maghribcheck2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13dp"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName5"
+        app:layout_constraintStart_toEndOf="@+id/maghribcheck"
+        app:layout_constraintTop_toBottomOf="@+id/asarcheck2" />
+
+    <CheckBox
+        android:id="@+id/dhurcheck2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13dp"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName3"
+        app:layout_constraintStart_toEndOf="@+id/dhurcheck"
+        app:layout_constraintTop_toBottomOf="@+id/fajarcheck2" />
+
+    <CheckBox
+        android:id="@+id/fajarcheck2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="13dp"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName2"
+        app:layout_constraintStart_toEndOf="@+id/fajarcheck"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/fajarcheck2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fajarcheck2"
+        app:layout_constraintTop_toTopOf="@+id/fajarcheck2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/maghribcheck2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/maghribcheck2"
+        app:layout_constraintTop_toTopOf="@+id/maghribcheck2" />
+
+    <CheckBox
+        android:id="@+id/dhurcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/dhurcheck2"
+        app:layout_constraintStart_toEndOf="@+id/Dhur"
+        app:layout_constraintTop_toBottomOf="@+id/fajarcheck" />
+
+    <TextView
+        android:id="@+id/Dhur"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="18dp"
+        android:text="Dhur"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dhurcheck"
+        app:layout_constraintEnd_toStartOf="@+id/dhurcheck"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/asarcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/asarcheck2"
+        app:layout_constraintStart_toEndOf="@+id/Asar"
+        app:layout_constraintTop_toBottomOf="@+id/dhurcheck" />
+
+    <CheckBox
+        android:id="@+id/maghribcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/maghribcheck2"
+        app:layout_constraintStart_toEndOf="@+id/Maghrib"
+        app:layout_constraintTop_toBottomOf="@+id/asarcheck" />
+
+    <CheckBox
+        android:id="@+id/eshacheck2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13dp"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName6"
+        app:layout_constraintStart_toEndOf="@+id/eshacheck"
+        app:layout_constraintTop_toBottomOf="@+id/maghribcheck2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/eshacheck2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/eshacheck2"
+        app:layout_constraintTop_toTopOf="@+id/eshacheck2" />
+
+    <TextView
+        android:id="@+id/Fajar"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="18dp"
+        android:text="Fajar"
+        app:layout_constraintBaseline_toBaselineOf="@+id/fajarcheck"
+        app:layout_constraintEnd_toStartOf="@+id/fajarcheck"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Maghrib"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="18dp"
+        android:text="Maghrib"
+        app:layout_constraintBaseline_toBaselineOf="@+id/maghribcheck"
+        app:layout_constraintEnd_toStartOf="@+id/maghribcheck"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="49dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dhurcheck2"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName2" />
+
+    <TextView
+        android:id="@+id/Asar"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="18dp"
+        android:text="Asar"
+        app:layout_constraintBaseline_toBaselineOf="@+id/asarcheck"
+        app:layout_constraintEnd_toStartOf="@+id/asarcheck"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/asarcheck2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13dp"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName4"
+        app:layout_constraintStart_toEndOf="@+id/asarcheck"
+        app:layout_constraintTop_toBottomOf="@+id/dhurcheck2" />
+
+    <CheckBox
+        android:id="@+id/tahajjudcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="46dp"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName7"
+        app:layout_constraintStart_toEndOf="@+id/esha"
+        app:layout_constraintTop_toBottomOf="@+id/eshacheck2" />
+
+    <Button
+        android:id="@+id/show_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="26dp"
+        android:text="Show"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/esha" />
+
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="16dp"
+        android:text="Add"
+        app:layout_constraintStart_toStartOf="@+id/tahajjudcheck"
+        app:layout_constraintTop_toBottomOf="@+id/tahajjudcheck" />
+
+    <EditText
+        android:id="@+id/editTextDate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="61dp"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prayed"
+        app:layout_constraintStart_toStartOf="@+id/fajarcheck"
+        app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="9dp"
+        android:text="Jamat"
+        app:layout_constraintBottom_toTopOf="@+id/fajarcheck2"
+        app:layout_constraintStart_toStartOf="@+id/fajarcheck2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:text="No of Rakats"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
+        app:layout_constraintStart_toEndOf="@+id/fajarcheck2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
