@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/maghribcheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName7"
+        android:id="@+id/tahajjudrakat"
         android:layout_width="0dp"
         android:layout_height="30dp"
         android:layout_marginEnd="20dp"
@@ -51,7 +51,7 @@
         app:layout_constraintTop_toTopOf="@+id/tahajjudcheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/asarrakat"
         android:layout_width="0dp"
         android:layout_height="30dp"
         android:layout_marginTop="46dp"
@@ -60,7 +60,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textSize="10sp"
-        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName5"
+        app:layout_constraintBottom_toBottomOf="@+id/maghribrakat"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/asarcheck2"
         app:layout_constraintTop_toTopOf="@+id/Dhur" />
@@ -80,7 +80,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="13dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName5"
+        app:layout_constraintEnd_toStartOf="@+id/maghribrakat"
         app:layout_constraintStart_toEndOf="@+id/maghribcheck"
         app:layout_constraintTop_toBottomOf="@+id/asarcheck2" />
 
@@ -89,7 +89,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="13dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName3"
+        app:layout_constraintEnd_toStartOf="@+id/dhurrakat"
         app:layout_constraintStart_toEndOf="@+id/dhurcheck"
         app:layout_constraintTop_toBottomOf="@+id/fajarcheck2" />
 
@@ -99,12 +99,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="74dp"
         android:layout_marginEnd="13dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName2"
+        app:layout_constraintEnd_toStartOf="@+id/fajarrakat"
         app:layout_constraintStart_toEndOf="@+id/fajarcheck"
-        app:layout_constraintTop_toBottomOf="@+id/editTextDate2" />
+        app:layout_constraintTop_toBottomOf="@+id/date_" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/fajarrakat"
         android:layout_width="0dp"
         android:layout_height="30dp"
         android:layout_marginEnd="20dp"
@@ -117,7 +117,7 @@
         app:layout_constraintTop_toTopOf="@+id/fajarcheck2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/maghribrakat"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
@@ -174,12 +174,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="13dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName6"
+        app:layout_constraintEnd_toStartOf="@+id/esharakat"
         app:layout_constraintStart_toEndOf="@+id/eshacheck"
         app:layout_constraintTop_toBottomOf="@+id/maghribcheck2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/esharakat"
         android:layout_width="0dp"
         android:layout_height="30dp"
         android:layout_marginEnd="20dp"
@@ -214,7 +214,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/dhurrakat"
         android:layout_width="0dp"
         android:layout_height="30dp"
         android:layout_marginTop="50dp"
@@ -223,10 +223,10 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textSize="10sp"
-        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName4"
+        app:layout_constraintBottom_toBottomOf="@+id/asarrakat"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/dhurcheck2"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toTopOf="@+id/fajarrakat" />
 
     <TextView
         android:id="@+id/Asar"
@@ -244,7 +244,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="13dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName4"
+        app:layout_constraintEnd_toStartOf="@+id/asarrakat"
         app:layout_constraintStart_toEndOf="@+id/asarcheck"
         app:layout_constraintTop_toBottomOf="@+id/dhurcheck2" />
 
@@ -254,7 +254,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="46dp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName7"
+        app:layout_constraintEnd_toStartOf="@+id/tahajjudrakat"
         app:layout_constraintStart_toEndOf="@+id/esha"
         app:layout_constraintTop_toBottomOf="@+id/eshacheck2" />
 
@@ -279,7 +279,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tahajjudcheck" />
 
     <EditText
-        android:id="@+id/editTextDate2"
+        android:id="@+id/date_"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="81dp"
